@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 :root {
-    --primary-color: #2daee0;
-    --secondary-color: #072f79;
-    --accent1-color: #0bdd9e;
-    --accent2-color: #560daa;
+    --primary-color: #330C2F;
+    --secondary-color: #7B287D;
+    --accent1-color: #EFE9E7;
+    --accent2-color: #DAE0F2;
   
-    --heading-font: '______', serif;
-    --paragraph-font: '______', serif;
+    --heading-font: 'Arial', serif;
+    --paragraph-font: 'Arial', serif;
     
-    --nav-background-color: #222;
-    --nav-link-color: #fa2c2c;
-    --nav-hover-link-color: #440505;
-    --nav-hover-background-color: #222;
+    --nav-background-color: #58A4B0;
+    --nav-link-color: #373F51;
+    --nav-hover-link-color: #A9BCD0;
+    --nav-hover-background-color: #D8DBE2;
   }
 
   body {
