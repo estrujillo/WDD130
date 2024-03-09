@@ -4,14 +4,14 @@ main {
 aside {
 width: 20rem;
 margin: 1rem;
-border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
+border: 1px solid rgba(0, 0, 0, 0.2);
 padding: 1rem;
 background-color: #eee;
 color: #eee;
 text-align: center;
 }
 
-#aside img {
+aside img {
     width: 150px;
     height: auto;
 }
@@ -26,7 +26,7 @@ p {
 }
 
 footer {
-    margin-top: 1em;
+    margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
