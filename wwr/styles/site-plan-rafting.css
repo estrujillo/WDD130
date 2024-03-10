@@ -15,7 +15,8 @@
   }
 
   body {
-    font-family : 'Roboto Condensed';
+    --primary-font: 'Roboto Condensed';
+    font-family: var(--primary-font);
     max-width: 960px;
     padding: 20px;
   }
@@ -55,3 +56,4 @@
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
   }
+  
