@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main {
     max-width: 840px;
 }
@@ -50,3 +56,13 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
+/* Class Selectors */
+.box{
+    margin: 1rem;
+    border: 1px solid rgb(9, 196, 149);
+    padding: 1rem;
+    background-color: rgba(47, 45, 45, 0.624);
+    color: rgb(31, 130, 112);
+}
+
