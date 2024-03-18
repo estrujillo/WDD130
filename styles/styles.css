@@ -3,30 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-main {
-    max-width: 840px;
-}
-aside {
-width: 20rem;
-margin: 1rem;
-border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
-padding: 1rem;
-background-color: #eee;
-color: #eee;
-text-align: center;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
-}
-
-main img {
-    width: 150px;
-    height: auto;
-}
-
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -39,18 +15,33 @@ nav a {
 h1 {
     color: steelblue;
 }
-img {
-    width: 150px;
+main {
+    max-width: 640px;
+}
+main img {
+    width: 120px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid seagreen;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
-
-p {
-    padding: 0;
+aside {
+    width: 20em;
+    text-align: center;
+    position: relative;
+    }
+    
+aside img {
+        width: 300px;
+        height: auto;
+    }
+aside h2{
+    position: absolute;
+    top: 105px;
+    left: 195px;
 }
-
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;
@@ -60,9 +51,9 @@ footer {
 /* Class Selectors */
 .box{
     margin: 1rem;
-    border: 1px solid rgb(9, 196, 149);
+    border: 1px solid rgb(4, 15, 12);
     padding: 1rem;
-    background-color: rgba(47, 45, 45, 0.624);
-    color: rgb(31, 130, 112);
+    background-color: rgba(113, 242, 178, 0.624);
+    color: rgb(18, 89, 23);
 }
 
