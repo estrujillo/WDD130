@@ -1,0 +1,44 @@
+.hero {
+  background-image: url('https://byui-cse.github.io/wdd130-ww-course/resources/images/little-colorado-portrait.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: rgb(164, 198, 241)
+}
+.article-img {
+  width: 200px;
+  border-radius: 90%;
+  margin-bottom: 30px;
+}
+.section-heading {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.rafting-img {
+  width: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+.social-icon {
+  width: 30px;
+  margin: 0 10px;
+}
+.social-link {
+  text-decoration: none;
+  color: #fff;
+}
