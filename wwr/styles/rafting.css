@@ -1,18 +1,47 @@
 .hero {
-  background-image: url('https://byui-cse.github.io/wdd130-ww-course/resources/images/little-colorado-portrait.jpg');
-  background-size: cover;
-  background-position: center;
+  margin: 20px;
+  position: relative;
   height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
+  overflow: hidden; /* Ensures the image does not overflow outside the hero div */
+  border: 2px solid rgb(92, 6, 154)
+  
 }
+
+.hero .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Ensures the content is above the image */
+  text-align: center;
+  color: white;
+  display: flex;
+}
+
 .hero h1 {
-  font-size: 3em;
-  margin-bottom: 20px;
-  color: rgb(164, 198, 241)
+  font-size: 2em;
+  margin-bottom: 90px;
+  color: rgb(20, 77, 151);
+}
+
+.hero article {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hero article p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  max-width: 100%;/* Adjust as needed */
+  z-index: 0; /* Ensures the image is behind the content */
 }
 .article-img {
   width: 200px;
@@ -28,6 +57,52 @@
   margin-right: 10px;
   margin-bottom: 10px;
 }
+
+header{
+  background-color: rgb(203, 168, 209);
+  margin: 20px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid rgb(92, 6, 154);}
+
+nav {
+  
+}
+
+nav li {
+  color: #fff;
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+ 
+}
+
+li {
+  text-align: center;
+  border: 1px solid rgb(92, 6, 154);
+  border-radius: 1px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: normal;
+  font-family: Arial, sans-serif; /* Change font family */
+  font-size: 16px; /* Change font size */
+}
+
 footer {
   background-color: #333;
   color: #fff;
