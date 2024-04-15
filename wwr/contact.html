@@ -49,11 +49,43 @@
                     </figure>
                     <figure>
                         <img src="images/employee3.png" alt="Medician" class="employee-img">
-                        <figcaption>Elias Hernandez - Safety Coordinator</figcaption>
+                        <figcaption>Elias Rodriguez - Safety Coordinator</figcaption>
                     </figure>
                 </div>
             </section>
         </article>
+        <form>
+            <fieldset>
+              <legend>User Information </legend>
+              <div class="form-item column2">
+              <label for="fullname">Full Name:</label>
+              <input type="text" name="fullname" id="fullname">
+              </div>
+              <div class="form-item column2">
+                <label for="text">Email:</label>
+                <input type="text" name="email" id="email">
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Message</legend>
+              <div class="form-item column1">
+                <label for="requirement">Select the purpose of your message?</label>
+                <input type="radio" name="requirement" id="requirement" value="inquiry">General Inquiry</input>
+                <input type="radio" name="requirement" id="requirement" value="reservation">Reservation Question</input>
+                <input type="radio" name="requirement" id="requirement" value="suggestion">Website Suggestion</input>
+              </input>
+              </div>
+            <div class="form-item">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" placeholder="Write your message here...."></textarea>
+            </div>
+              <div class="form-item column1">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+          <input type="checkbox" name="subscribe" id="subscribe" value="subscribe">
+              </div>
+          </fieldset>
+          <button type="submit">Submit Poll</button>
+          </form>
     </main>
     <footer>
         <p>©2024 | Wildwater Rafting | Eduardo Trujillo | WDD 130</p>
